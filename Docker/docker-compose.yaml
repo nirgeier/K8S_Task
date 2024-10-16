@@ -1,0 +1,9 @@
+services:
+  service-a:
+    build: serviceA
+    image: nirgeier/k8s_task_service_a
+  service-b:
+    build: serviceB
+    image: nirgeier/k8s_task_service_b
+
+
